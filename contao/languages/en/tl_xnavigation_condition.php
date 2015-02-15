@@ -55,6 +55,10 @@ $GLOBALS['TL_LANG']['tl_xnavigation_condition']['member_login_accepted_login_sta
 	'Accepted login status',
 	'Please choose the accepted login status.'
 );
+$GLOBALS['TL_LANG']['tl_xnavigation_condition']['user_login_accepted_login_status']   = array(
+	'Accepted login status',
+	'Please choose the accepted login status.'
+);
 $GLOBALS['TL_LANG']['tl_xnavigation_condition']['invert']                               = array(
 	'Invert',
 	'Invert the condition.'
@@ -65,6 +69,8 @@ $GLOBALS['TL_LANG']['tl_xnavigation_condition']['invert']                       
  */
 $GLOBALS['TL_LANG']['tl_xnavigation_condition']['member_login_accepted_login_statuses']['logged_in']     = 'logged in';
 $GLOBALS['TL_LANG']['tl_xnavigation_condition']['member_login_accepted_login_statuses']['logged_out']    = 'logged out';
+$GLOBALS['TL_LANG']['tl_xnavigation_condition']['user_login_accepted_login_statuses']['logged_in']     = 'logged in';
+$GLOBALS['TL_LANG']['tl_xnavigation_condition']['user_login_accepted_login_statuses']['logged_out']    = 'logged out';
 
 /**
  * Legends

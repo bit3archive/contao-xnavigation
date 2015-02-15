@@ -68,4 +68,5 @@ $GLOBALS['XNAVIGATION_CONDITION']['current']        = 'Bit3\FlexiTree\Condition\
 $GLOBALS['XNAVIGATION_CONDITION']['trail']          = 'Bit3\FlexiTree\Condition\TrailCondition';
 $GLOBALS['XNAVIGATION_CONDITION']['level']          = 'Bit3\FlexiTree\Condition\LevelCondition';
 $GLOBALS['XNAVIGATION_CONDITION']['member_login']   = 'Bit3\Contao\XNavigation\Condition\MemberLoginCondition';
+$GLOBALS['XNAVIGATION_CONDITION']['user_login']     = 'Bit3\Contao\XNavigation\Condition\UserLoginCondition';
 $GLOBALS['XNAVIGATION_CONDITION']['link']           = 'Bit3\Contao\XNavigation\Condition\LinkCondition';

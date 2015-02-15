@@ -168,6 +168,11 @@ $GLOBALS['TL_DCA']['tl_xnavigation_condition'] = array
 			'condition' => array('type', 'title'),
 			'settings'  => array('member_login_accepted_login_status', 'invert'),
 		),
+		'user_login'   => array
+		(
+			'condition' => array('type', 'title'),
+			'settings'  => array('user_login_accepted_login_status', 'invert'),
+		),
 		'link'           => array
 		(
 			'condition' => array('type', 'title'),
@@ -266,6 +271,18 @@ $GLOBALS['TL_DCA']['tl_xnavigation_condition'] = array
 			'inputType' => 'select',
 			'options'   => array('logged_in', 'logged_out'),
 			'reference' => &$GLOBALS['TL_LANG']['tl_xnavigation_condition']['member_login_accepted_login_statuses'],
+			'eval'      => array(
+				'mandatory' => true,
+				'tl_class'  => 'w50',
+			),
+			'sql'       => "varchar(10) NOT NULL default ''"
+		),
+		'user_login_accepted_login_status'     => array
+		(
+			'label'     => &$GLOBALS['TL_LANG']['tl_xnavigation_condition']['user_login_accepted_login_status'],
+			'inputType' => 'select',
+			'options'   => array('logged_in', 'logged_out'),
+			'reference' => &$GLOBALS['TL_LANG']['tl_xnavigation_condition']['user_login_accepted_login_statuses'],
 			'eval'      => array(
 				'mandatory' => true,
 				'tl_class'  => 'w50',

@@ -47,6 +47,10 @@ $GLOBALS['TL_LANG']['xnavigation_condition']['member_login']   = array(
 	'Member login status',
 	'Filter items depending if the user is logged in or not.'
 );
+$GLOBALS['TL_LANG']['xnavigation_condition']['user_login']   = array(
+	'User login status',
+	'Filter items depending if the user is logged in or not.'
+);
 $GLOBALS['TL_LANG']['xnavigation_condition']['link']   = array(
 	'Condition',
 	'Embed another condition.'
